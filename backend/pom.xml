@@ -21,8 +21,8 @@
         <module>servicio</module>
         <module>entidades</module>
         <module>dtos</module>
-        <module>excepciones</module>
-        <module>directorioactivo</module>
+        <module>utilidades</module>
+        <module>mappers</module>
     </modules>
 
     <dependencies>

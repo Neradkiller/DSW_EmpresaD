@@ -11,6 +11,7 @@ public class DtoUsuario extends DtoBase{
     private String estado;
     private String correo;
     private String password;
+    private String token;
 
     public DtoUsuario(){}
 
@@ -47,8 +48,14 @@ public class DtoUsuario extends DtoBase{
     public String getCorreo() {
         return correo;
     }
-
     public void setCorreo(String correo) {
         this.correo = correo;
+    }
+
+    public String getToken() {
+        return token;
+    }
+    public void setToken(String token) {
+        this.token = token;
     }
 }
